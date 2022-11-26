@@ -12,7 +12,7 @@ var Interval;
 
 buttonStart.addEventListener('click', () => {
     clearInterval(Interval);
-    Interval = setInterval(startTimer, 1);
+    Interval = setInterval(startTimer, 10);
 });
 
 buttonStop.addEventListener('click', () => {
