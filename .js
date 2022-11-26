@@ -25,7 +25,7 @@ buttonReset.addEventListener('click', () => {
     tens = "00";
     OutputMinutes.innerHTML = minutes;
     OutputSeconds.innerHTML = seconds;
-    OutputTens.innerHTML = seconds;
+    OutputTens.innerHTML = tens;
 });
 
 function startTimer(){
